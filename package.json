@@ -14,7 +14,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "antd": "^4.15.2",
+    "ant-design-vue": "^1.7.4",
     "axios": "^0.21.1",
     "es6-promise": "^4.2.8",
     "less": "^4.1.1",

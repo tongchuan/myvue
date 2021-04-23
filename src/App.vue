@@ -1,22 +1,18 @@
 <template>
-  <ConfigProvider :locale="zhCN">
-    <div id="app">
-      <!-- <img src="./assets/logo.png"> -->
-      <router-view/>
-    </div>
-  </ConfigProvider>
+  <a-locale-provider :locale="locale">
+    <!-- <img src="./assets/logo.png"> -->
+    <router-view/>
+  </a-locale-provider>
 </template>
 
 <script>
-import { ConfigProvider } from 'antd'
-import zhCN from 'antd/lib/locale/zh_CN'
+import zhCN from 'ant-design-vue/lib/locale-provider/zh_CN'
 export default {
   name: 'App',
-  components: {
-    ConfigProvider
-  },
   data () {
-    return zhCN
+    return {
+      locale: zhCN
+    }
   }
 }
 </script>
