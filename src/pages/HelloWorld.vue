@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <a-button type="primary">
+    <a-button type="primary" v-on:click="gotoTest">
       Primary
     </a-button>
     <a-button>Default</a-button>
@@ -78,6 +78,9 @@ export default {
       this.actionProductListAdd({Math: Math.random()})
       this.actionLogin({ddd: 11})
       this.mutationProductListAdd({mutationProductListAdd: Math.random()})
+    },
+    gotoTest () {
+      this.$router.push('/')
     }
   },
   mounted () {
