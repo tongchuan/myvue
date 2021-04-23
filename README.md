@@ -28,3 +28,5 @@ npm test
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+https://cn.vuejs.org/v2/guide/installation.html#AMD-%E6%A8%A1%E5%9D%97%E5%8A%A0%E8%BD%BD%E5%99%A8
